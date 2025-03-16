@@ -77,6 +77,7 @@ def analyzing_speed_vehicles(
 def argparser():
     parser = argparse.ArgumentParser(
         description="This program is for detecting a vehicle speed."
+        "For exist click the q on video to see max speed."
     )
     parser.add_argument("--video", type=str, help="Path to .mp4 video")
 
