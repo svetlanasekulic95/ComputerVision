@@ -18,5 +18,5 @@ This program is for detecting a vehicle speed.
 
   # SEE RESULT
 
-  Click q on video to see mas speed in your terminal.
+  Click q on video to see the max speed in your terminal.
 
