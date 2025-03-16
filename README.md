@@ -1,10 +1,10 @@
 # ComputerVision
 Vehicles speed
 
-#RUN PROGRAMS
+# RUN PROGRAMS
 python vehicles_detection.py --video path_to_video.mp4 --model model_witch_you_want_to_use (defaul=yolov8s.pt)
 
-#USE HELP
+# USE HELP
 python vehicles_detection.py  -h
 
 The result is
