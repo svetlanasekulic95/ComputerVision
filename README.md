@@ -41,7 +41,7 @@ This program is for detecting a vehicle speed.
 # Run App
 python vehicles_detection.py --video path_to_video.mp4 --model model_witch_you_want_to_use (defaul=yolov8s.pt)
 
-# SEE RESULT
+# See Results
 
 ![Alt text](image1.png)
 
