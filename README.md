@@ -49,6 +49,11 @@ Click q on video to see the max speed in your terminal:
 
 
 ![Alt text](image2.png)
+
+# References 
+    1. https://www.youtube.com/watch?v=1B7h8CBHgp0
+    2. https://github.com/jitendrasb24/Car-Detection-OpenCV
+    3. https://www.youtube.com/watch?v=4wgvhVSq644
     
 
 
