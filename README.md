@@ -15,3 +15,8 @@ This program is for detecting a vehicle speed.
   --video VIDEO  Path to .mp4 video
   
   --model MODEL  Model for detection use which one you want, default value is yolov8s.pt
+
+  # SEE RESULT
+
+  Click q on video to see mas speed in your terminal.
+
