@@ -10,5 +10,7 @@ This program is for detecting a vehicle speed.
 
   options:
   -h, --help     show this help message and exit
+  
   --video VIDEO  Path to .mp4 video
+  
   --model MODEL  Model for detection use which one you want, default value is yolov8s.pt
