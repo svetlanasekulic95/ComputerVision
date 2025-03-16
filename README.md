@@ -1,3 +1,10 @@
+# Clone the repo
+    1. Using ssh:
+        git clone git@github.com:svetlanasekulic95/ComputerVision.git
+    2. Using https:
+        git clone https://github.com/svetlanasekulic95/ComputerVision.git
+    
+    cd path_to_folder/ComputerVision
 
 # Creating virtualenv
 
@@ -11,13 +18,13 @@ For this task I use virtualenv:
 
 There is requirements.in file, where you could find all necessary package.
 Follow:
-    pip-compile requirements.in
-    pip install -r requirements.txt
 
-# RUN PROGRAM
-python vehicles_detection.py --video path_to_video.mp4 --model model_witch_you_want_to_use (defaul=yolov8s.pt)
+    'If you could  find requirements.txt, you should skip step 1.'
 
-# USE HELP
+    1. pip-compile pat_to_in_file/requirements.in 
+    2. pip install -r path_to_txt_file/requirements.txt 
+
+# Use help
 python vehicles_detection.py  -h
 
 The result is
@@ -31,9 +38,18 @@ This program is for detecting a vehicle speed.
   --video VIDEO  Path to .mp4 video
   
   --model MODEL  Model for detection use which one you want, default value is yolov8s.pt
+# Run App
+python vehicles_detection.py --video path_to_video.mp4 --model model_witch_you_want_to_use (defaul=yolov8s.pt)
 
-  # SEE RESULT
+# SEE RESULT
 
-  Click q on video to see the max speed in your terminal.
+![Alt text](image1.png)
+
+Click q on video to see the max speed in your terminal:
+
+
+![Alt text](image2.png)
+    
+
 
 
