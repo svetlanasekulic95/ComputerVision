@@ -1,3 +1,19 @@
+
+# Creating virtualenv
+
+For this task I use virtualenv:
+
+    1. pip install virtualenv
+    2. virtualenv name_of_venv
+    3. source name_of_venv/bin/activate
+
+# Install Requirements
+
+There is requirements.in file, where you could find all necessary package.
+Follow:
+    pip-compile requirements.in
+    pip install -r requirements.txt
+
 # RUN PROGRAM
 python vehicles_detection.py --video path_to_video.mp4 --model model_witch_you_want_to_use (defaul=yolov8s.pt)
 
@@ -19,4 +35,5 @@ This program is for detecting a vehicle speed.
   # SEE RESULT
 
   Click q on video to see the max speed in your terminal.
+
 
