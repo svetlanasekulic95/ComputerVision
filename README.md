@@ -9,6 +9,7 @@ The result is
 This program is for detecting a vehicle speed.
 
   options:
+  
   -h, --help     show this help message and exit
   
   --video VIDEO  Path to .mp4 video
